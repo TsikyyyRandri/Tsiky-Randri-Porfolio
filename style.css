@@ -583,7 +583,7 @@ body {
     padding: 90px 0 50px;
     position: relative;
     z-index: 1;
-    background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.15)), url("/photos/banniere.png");
+    background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.15)), url("photo/banniere.png");
     background-size: 65%;
     background-position: center;
 }
@@ -818,4 +818,5 @@ body {
         .contact-item a:hover {
             text-decoration: underline;
         }
+
 
