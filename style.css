@@ -485,6 +485,10 @@ body {
         height: 100%;
         object-fit: cover;
     }
+.no-crop {
+  object-fit: contain;
+  object-position: center;
+}
 
 .highlight-body {
     padding: 26px 28px 30px;
@@ -828,6 +832,7 @@ body {
         .contact-item a:hover {
             text-decoration: underline;
         }
+
 
 
 
