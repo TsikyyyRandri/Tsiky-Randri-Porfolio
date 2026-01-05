@@ -577,20 +577,26 @@ body {
 }
 
 .enactus-hero {
-    min-height: 320px;
-    display: flex;
-    align-items: flex-end;
-    padding: 90px 0 50px;
-    position: relative;
-    z-index: 1;
-    background: linear-gradient(
-  to top,
-  rgba(0,0,0,.55),
-  rgba(0,0,0,.15)
-), url("./photo/banniere.png");
-    background-size: 65%;
-    background-position: center;
+  min-height: 320px;
+  display: flex;
+  align-items: flex-end;
+  padding: 90px 0 50px;
+  position: relative;
+  z-index: 1;
+
+  background-image:
+    linear-gradient(
+      to top,
+      rgba(0,0,0,.35),
+      rgba(0,0,0,.05)
+    ),
+    url("./photo/banniere.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 .enactus-hero-inner {
     width: min(1100px, 92%);
@@ -822,6 +828,7 @@ body {
         .contact-item a:hover {
             text-decoration: underline;
         }
+
 
 
 
