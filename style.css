@@ -828,66 +828,8 @@ body {
         .contact-item a:hover {
             text-decoration: underline;
         }
-/* ✅ Responsive Mobile */
-* { box-sizing: border-box; }
-img { max-width: 100%; height: auto; display: block; }
 
-@media (max-width: 768px) {
 
-  /* Global */
-  body { overflow-x: hidden; }
-  .container, .hero-inner, .enactus-hero-inner {
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  /* Menu */
-  nav .menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-  }
-  nav .menu a {
-    padding: 10px 12px;
-    font-size: 15px;
-  }
-
-  /* Hero (accueil) : texte + photo en colonne */
-  .hero-inner.hero-split {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    text-align: center;
-  }
-  .hero-photo img {
-    width: min(260px, 70vw);
-    margin: 0 auto;
-  }
-
-  /* Banner / hero sections */
-  .enactus-hero {
-    min-height: 240px;
-    padding: 70px 0 35px;
-    background-size: cover;
-    background-position: center;
-  }
-
-  /* Titres */
-  h1 { font-size: 28px; line-height: 1.15; }
-  h2 { font-size: 22px; line-height: 1.2; }
-  p  { font-size: 16px; line-height: 1.55; }
-
-  /* Grilles / colonnes : tout en 1 colonne */
-  .grid, .cards, .skills, .bio-skills, .sections-row {
-    display: grid;
-    grid-template-columns: 1fr !important;
-    gap: 14px;
-  }
-
-  /* Espacements */
-  section { padding-left: 0; padding-right: 0; }
-}
 
 
 
