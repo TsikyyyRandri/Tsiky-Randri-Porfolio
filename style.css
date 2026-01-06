@@ -73,6 +73,7 @@ body {
         font-weight: 600;
         padding: 10px 14px;
         border-radius: 0;
+        font-size: 16px;
     }
 
         .menu a:hover {
@@ -832,6 +833,7 @@ body {
         .contact-item a:hover {
             text-decoration: underline;
         }
+
 
 
 
